@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sample Page</title>
+{%load staticfiles%}
+<link rel="stylesheet" href={%static "FirstApp/css/sample.css"%}/>
+</head>
+<body>
+<h1><em>{{"Django Sample Static image"|title}} and the time is{%now "h:m:s"%} </em></h1>
+
+
+
+
+
+{%load staticfiles%}
+<img alt="Django" style="width:100%" class="sample" src={%static "FirstApp/images/django-logo-negative.png"%}>
+
+</body>
+</html>
